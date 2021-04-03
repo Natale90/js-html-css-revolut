@@ -1,0 +1,10 @@
+@media screen and (max-width: 1200px) {
+
+    nav li{
+        display: none;
+    }
+
+    #brg{
+        display:block;
+    }
+}

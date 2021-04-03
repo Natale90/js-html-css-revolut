@@ -1,0 +1,99 @@
+/* GENERAL RULES  */
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 75%;
+  margin: auto;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+/* -------------------NAVBAR RULES SET-------------------- */
+
+nav {
+  height: 80px;
+  display: flex;
+  background-color: lightgreen;
+  align-items: center;
+}
+
+#nav_logo {
+  width: 50px;
+  height: auto;
+}
+
+.nav_left{
+
+  display: flex;
+  flex-grow: 2;
+  align-items: center;
+}
+
+.nav_left li{
+  margin-right: 10px;
+}
+
+.nav_right{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.list {
+  margin-right: 30px;
+  padding:5px 10px;
+}
+
+.show{
+  display:block;
+  position: absolute;
+}
+
+.hide_sub{
+  display:none;
+}
+
+#sign{
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+
+#getApp{
+  background-color: lightgrey;
+  color:#fff;
+  border-radius: 10px;
+}
+
+
+
+.drop li{
+  width: 70px;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.mn_sub.active{
+  display:block;
+}
+
+#brg, #x{
+  display: none;
+  font-size: 25px;
+  padding: 10px;
+}
